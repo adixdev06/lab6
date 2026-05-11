@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/Dikshyant-Lamsal/repo-test.git'
+                git branch: 'main', url: 'https://github.com/adixdev06/lab6.git'
             }
         }
         stage('Build') {
