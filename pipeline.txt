@@ -1,5 +1,3 @@
-#pipeline(EXP-6)
-
 pipeline {
     agent any
     
